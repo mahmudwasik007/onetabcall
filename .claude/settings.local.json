@@ -3,7 +3,13 @@
     "allow": [
       "Bash(npx kill-port:*)",
       "Bash(npx sharp-cli:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(python -c \"import os; os.remove\\(r''\\\\\\\\?\\\\C:\\\\Users\\\\jahid\\\\Desktop\\\\onetabcall\\\\nul''\\)\")",
+      "Bash(node -e \"const fs = require\\(''fs''\\); fs.unlinkSync\\(''C:/Users/jahid/Desktop/onetabcall/nul''\\);\")",
+      "Bash(powershell -Command \"Remove-Item -LiteralPath ''\\\\?\\\\C:\\\\Users\\\\jahid\\\\Desktop\\\\onetabcall\\\\nul'' -Force\")"
     ]
   }
 }
