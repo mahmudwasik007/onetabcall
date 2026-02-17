@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "One Tap Call",
+    "slug": "one-tap-call",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00C853"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.onetapcall.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "One Tap Call needs your location to find the nearest emergency services."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#00C853"
+      },
+      "package": "com.onetapcall.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CALL_PHONE"
+      ]
+    },
+    "updates": {
+      "enabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow One Tap Call to use your location to find nearest emergency services."
+        }
+      ]
+    ]
+  }
+}

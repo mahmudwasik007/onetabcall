@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx kill-port:*)",
+      "Bash(npx sharp-cli:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
